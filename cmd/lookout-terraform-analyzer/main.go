@@ -6,9 +6,9 @@ import (
 	"net"
 	"os"
 
-	terraformanalyzer "github.com/src-d/lookout-terraform-analyzer"
+	terraformanalyzer "github.com/meyskens/lookout-terraform-analyzer"
 
-	"gopkg.in/src-d/lookout-sdk.v0/pb"
+	"gopkg.in/meyskens/lookout-sdk.v0/pb"
 
 	"github.com/kelseyhightower/envconfig"
 	"google.golang.org/grpc"
