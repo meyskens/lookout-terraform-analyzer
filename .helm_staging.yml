@@ -1,3 +1,6 @@
 app:
   dataServiceUrl: ipv4://lookout-work:10301
   port: 9930
+
+image:
+  repository: maartje/lookout-terraform-analyzer
