@@ -13,7 +13,7 @@ stages:
   - name: deploy
     if: tag IS present
 
-go_import_path: github.com/src-d/lookout-terraform-analyzer
+go_import_path: github.com/meyskens/lookout-terraform-analyzer
 
 jobs:
   include:
